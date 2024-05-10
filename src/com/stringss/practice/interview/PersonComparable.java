@@ -38,6 +38,5 @@ public class PersonComparable implements Comparable<PersonComparable>{
 	public int compareTo(PersonComparable o) {
 		return this.city.compareTo(o.getCity());
 	}
-	
-	
+
 }

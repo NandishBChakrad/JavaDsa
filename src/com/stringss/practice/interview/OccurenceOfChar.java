@@ -9,9 +9,8 @@ public class OccurenceOfChar {
 		str = str.replace(" ", "");
 		char ch[] = str.toCharArray();
 		Map<Character, Integer> map = new HashMap<>();
-		int count ;
 		for (int i = 0; i < ch.length; i++) {
-			count = 0;
+			int count = 0;
 			for (int j = 0; j < ch.length; j++) {
 				if (ch[i] == ch[j]) {
 					count++;

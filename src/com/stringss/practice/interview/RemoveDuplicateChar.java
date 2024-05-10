@@ -17,10 +17,6 @@ public class RemoveDuplicateChar {
 		System.out.println(sb);
 		System.out.println();
 
-		
-		
-		
-		
 		// 2nd approach
 		StringBuilder sb2 = new StringBuilder();
 		Set<Character> set = new LinkedHashSet<>();

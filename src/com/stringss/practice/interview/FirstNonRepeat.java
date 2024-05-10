@@ -12,7 +12,6 @@ public class FirstNonRepeat {
 			}
 			if (unique) {
 				System.out.println(str.charAt(i));
-				break;
 			}
 		}
 	}
