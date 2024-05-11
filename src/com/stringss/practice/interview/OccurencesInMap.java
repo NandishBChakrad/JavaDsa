@@ -17,6 +17,20 @@ public class OccurencesInMap {
 			}
 		}
 		System.out.println(map);
+		
+		
+		
+		//2nd approach
+
+		Map<String, Integer> maps = new HashMap<>();
+		for(String fruit : fruits) {
+			maps.put(fruit, map.getOrDefault(fruit, 0)+1);
+		}
+		System.out.println(map);
 	}
 
+	
+	
+	
+	
 }
