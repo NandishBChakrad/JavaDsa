@@ -3,7 +3,7 @@ package com.stringss.practice.interview;
 public class IntersectionOfArrays {
 
 	public static void main(String[] args) {
-		int[] arr1 = { 1, 2, 3, 4, 5, 6 };
+		int[] arr1 = { 1, 2, 3, 9, 4, 5, 6 };
 		int[] arr2 = { 8, 7, 8, 9, 3 };
 
 		intersectArrays(arr1, arr2);
